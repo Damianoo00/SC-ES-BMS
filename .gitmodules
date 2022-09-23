@@ -1,0 +1,3 @@
+[submodule "BMS-Interface/Core/modules/MAX17843ACB-Interface"]
+	path = BMS-Interface/Core/modules/MAX17843ACB-Interface
+	url = git@github.com:Damianoo00/MAX17843ACB-Interface.git
