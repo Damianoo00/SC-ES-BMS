@@ -1,0 +1,43 @@
+{
+    "files.associations": {
+        "main.h": "c",
+        "stm32g0xx_hal.h": "c",
+        "max17851.h": "c"
+    },
+    "cSpell.words": [
+        "ACQCFG",
+        "ALIVECOUNT",
+        "ALRTBALSW",
+        "ALRTCELL",
+        "ALRTEN",
+        "ALRTOVCELL",
+        "ALRTOVEN",
+        "ALRTPCKT",
+        "ALRTPCKTBUF",
+        "ALRTUVCELL",
+        "ALRTUVEN",
+        "BALDIAGCFG",
+        "BALSWDCHG",
+        "BALSWEN",
+        "CBTIMER",
+        "CONFIGQ",
+        "DBNC",
+        "DEVCFG",
+        "FMEA",
+        "GPIO",
+        "hspi",
+        "LSSM",
+        "MEASUREEN",
+        "MINMAXCELL",
+        "OPSTATE",
+        "RTRY",
+        "RXBUF",
+        "SAFEMON",
+        "SCANCTRL",
+        "SWPOR",
+        "TIMERCFG",
+        "TOPCELL",
+        "TXBUF"
+    ],
+    "cmake.sourceDirectory": "${workspaceFolder}/BMS-Interface"
+}
