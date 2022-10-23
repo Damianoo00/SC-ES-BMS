@@ -37,8 +37,8 @@ set(STM32CUBEMX_GENERATED_FILES
         Core/Inc/stm32g0xx_hal_conf.h
         Core/Inc/stm32g0xx_it.h
 
-        modules/MAX17851/max17851.cpp
         modules/MAX17851/max17851.h
+        modules/MAX17843/max17843.h
 
         Core/Src/main.cpp
         Core/Src/stm32g0xx_hal_msp.c
@@ -61,6 +61,7 @@ target_include_directories(${EXECUTABLE} PRIVATE
         Drivers/STM32G0xx_HAL_Driver/Inc
         Drivers/CMSIS/Device/ST/STM32G0xx/Include
         Drivers/CMSIS/Include
+        modules/MAX17843
         modules/MAX17851
         )
 
@@ -73,8 +74,7 @@ target_compile_options(${EXECUTABLE} PRIVATE
         -ffunction-sections
 
         -Wall
-
-        $<$<CONFIG:Debug>:-Og>
+        $<$<CONFIG:Debug>:-0g>
         )
 
 target_link_options(${EXECUTABLE} PRIVATE

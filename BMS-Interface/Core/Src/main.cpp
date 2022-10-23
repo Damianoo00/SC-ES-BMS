@@ -18,10 +18,11 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-#include <max17851.h>
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include <max17843.h>
+#include <max17851.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
